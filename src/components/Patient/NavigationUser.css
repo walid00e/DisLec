@@ -1,0 +1,5 @@
+.navigation-user-base {
+    grid-row:    1 / 4;
+    grid-column: 1 / 3;
+    background-color: #F72585;
+}

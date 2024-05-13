@@ -1,0 +1,5 @@
+.leader-board-base {
+    grid-row:    2 / 4;
+    grid-column: 3 / 6;
+    background-color: white;
+}

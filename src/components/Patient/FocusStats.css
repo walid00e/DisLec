@@ -1,0 +1,5 @@
+.focus-stats-base {
+    grid-row:    3 / 4;
+    grid-column: 10 / 13;
+    background-color: white;
+}

@@ -1,0 +1,5 @@
+.hours-stats-base {
+    grid-row:    2 / 3;
+    grid-column: 11 / 13;
+    background-color: #4361EE;
+}

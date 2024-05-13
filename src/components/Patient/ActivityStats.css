@@ -1,0 +1,5 @@
+.activity-stats-base {
+    grid-row:    3 / 4;
+    grid-column: 6 / 10;
+    background-color: white;
+}
