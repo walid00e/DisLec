@@ -2,4 +2,15 @@
     grid-row:    2 / 3;
     grid-column: 6 / 9;
     background-color: #7209B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rank-stats-content-container {
+
+}
+
+.rank-stats-image {
+    width: calc(100%);
 }

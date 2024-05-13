@@ -4,7 +4,7 @@
     background-color: white;
 }
 
-.container {
+.dashboard-top-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
