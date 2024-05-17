@@ -16,9 +16,9 @@ function NavigationUser(props) {
         <div className="navigation-user-base rounderCorn dropShadow">
             <Logo/>
             <GroupBtn>
-                <SectionBtn activated={true} title='OVERVIEW' icon={overViewIcon}/>
+                <SectionBtn activated={false} title='OVERVIEW' icon={overViewIcon}/>
                 <SectionBtn activated={false} title='PRACTICE' icon={practiceIcon}/>
-                <SectionBtn activated={false} title='COLLAB' icon={collabIcon}/>
+                <SectionBtn activated={true} title='COLLAB' icon={collabIcon}/>
                 <SectionBtn activated={false} title='PROFIL' icon={profileIcon}/>
                 <SectionBtn activated={false} title='SETTING' icon={settingIcon}/>
             </GroupBtn>
