@@ -8,9 +8,32 @@
 }
 
 .rank-stats-content-container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .rank-stats-image {
-    width: calc(100%);
+    width: 160px;
+}
+
+.rank-stats-name {
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}
+
+.rank-stats-desc {
+    color: white;
+    opacity: 90%;
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
 }

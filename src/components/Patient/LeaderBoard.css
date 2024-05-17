@@ -3,3 +3,23 @@
     grid-column: 3 / 6;
     background-color: white;
 }
+
+.leader-board-stats-title {
+    color: #3C3C3C;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    z-index: 1;
+    position: absolute;
+}
+
+.leader-board-stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

@@ -14,10 +14,10 @@ function App() {
   return (
       <Base>
         <Dashboard>
-            <NavigationUser/>
+            <NavigationUser selcected='0'/>
             <DashboardTop/>
             <LeaderBoard/>
-            <RankStats/>
+            <RankStats name="" desc="" img=""/>
             <ExercisesStats/>
             <HoursStats/>
             <ActivityStats/>

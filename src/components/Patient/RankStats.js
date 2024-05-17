@@ -6,6 +6,8 @@ function RankStats(props) {
         <div className="rank-stats-base rounderCorn dropShadow">
             <div className="rank-stats-content-container">
                 <img src={imgLevel} className="rank-stats-image" alt=""/>
+                <p className="rank-stats-name">LEVEL 1 RANK</p>
+                <p className="rank-stats-desc">Random Description</p>
             </div>
         </div>
     );
