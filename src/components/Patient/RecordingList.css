@@ -4,6 +4,17 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    overflow: scroll;
+}
+
+.recording-list-title {
+    color: #3C3C3C;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: start;
+    width: calc(100% - 16px);
 }
