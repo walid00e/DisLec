@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../MERN TALKEASE/.idea/MERN TALKEASE.iml" filepath="$PROJECT_DIR$/../../MERN TALKEASE/.idea/MERN TALKEASE.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dislec.iml" filepath="$PROJECT_DIR$/.idea/dislec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../rest-api-nodejs-mongodb-master/.idea/rest-api-nodejs-mongodb-master.iml" filepath="$PROJECT_DIR$/../../rest-api-nodejs-mongodb-master/.idea/rest-api-nodejs-mongodb-master.iml" />
     </modules>
   </component>
 </project>

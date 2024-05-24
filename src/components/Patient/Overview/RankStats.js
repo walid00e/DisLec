@@ -1,5 +1,5 @@
 import './RankStats.css';
-import imgLevel from "../../Assets/icons/level1.svg";
+import imgLevel from "../../../Assets/icons/level1.svg";
 
 function RankStats(props) {
     return(

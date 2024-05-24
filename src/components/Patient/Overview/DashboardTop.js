@@ -1,6 +1,6 @@
 import './DashboardTop.css'
-import'../../colors.css'
-import img from '../../Assets/img/2148244811.jpg'
+import'../../../colors.css'
+import img from '../../../Assets/img/2148244811.jpg'
 
 function DashboardTop() {
     return (

@@ -1,0 +1,39 @@
+.user-rank-base {
+    grid-row:    2 / 4;
+    grid-column: 7 / 10;
+    background-color: #3A0CA3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rank-stats-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank-stats-image {
+    width: 90%;
+}
+
+.rank-stats-name {
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    height: fit-content;
+}
+
+.rank-stats-title {
+    color: white;
+    opacity: 90%;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}

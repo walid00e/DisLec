@@ -1,0 +1,35 @@
+.user-profile-base {
+    grid-row:    1 / 2;
+    grid-column: 3 / 7;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-info-user-img-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-profile-profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-profile-info-name {
+    color: #7209B7;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.user-profile-info-sub-name {
+    color: #7209B7;
+    margin-top: 6px;
+}

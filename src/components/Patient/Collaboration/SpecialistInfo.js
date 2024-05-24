@@ -1,5 +1,5 @@
 import './SpecialistInfo.css';
-import img from '../../Assets/img/2148729672.jpg'
+import img from '../../../Assets/img/2148729672.jpg'
 
 function SpecialistInfo(props){
     return(

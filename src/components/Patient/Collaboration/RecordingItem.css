@@ -1,0 +1,126 @@
+.recording-item-base {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.recording-item-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.recording-item-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 16px;
+}
+
+.recording-item-data-container {
+    flex: 5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recording-item-data-top-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recording-item-data-bottom-container {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recording-specialist-data {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.recording-specialist-data-name{
+    font-weight: bold;
+    margin: 0;
+}
+
+.recording-specialist-data-extras{
+    margin: 0;
+}
+
+.recording-current-date {
+    flex: 1;
+}
+
+.recording-current-date-text {
+    background-color: #4CC9F0;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.recording-current-level {
+    flex: 1;
+}
+
+.recording-current-level-text {
+    background-color: #7209B7;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 6px;
+}
+
+.recording-current-exercise {
+    flex: 1;
+}
+
+.recording-current-exercise-text {
+    background-color: #3A0CA3;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 6px;
+}
+
+.recording-current-grade {
+    flex: 1;
+}
+
+.recording-current-grade-text-good {
+    background-color: #2BC016;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+    margin-right: 16px;
+}
+
+.audio-player{
+    background-color: #4361EE;
+    width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 50px;
+}
+

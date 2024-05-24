@@ -1,0 +1,34 @@
+.user-pass-base {
+    grid-row:    2 / 4;
+    grid-column: 10 / 14;
+    background-color: white;
+}
+
+.user-pass-base-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-pass-base-image-container {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-pass-base-image {
+    height: 100%;
+}
+
+.user-pass-base-button{
+    background-color: #7209B7;
+    border-radius: 12px;
+    height: 54px;
+    width: 70%;
+    color: white;
+    font-size: medium;
+    margin-top: 16px;
+}

@@ -1,6 +1,6 @@
 import './LeaderBoard.css';
 import LeaderboardRankUser from "./LeaderboardRankUser";
-import img from "../../Assets/img/2148244811.jpg";
+import img from "../../../Assets/img/2148244811.jpg";
 
 function LeaderBoard(props) {
     return(

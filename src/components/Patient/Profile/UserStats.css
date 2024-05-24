@@ -1,0 +1,6 @@
+.user-stats-base {
+    grid-row:    2 / 4;
+    grid-column: 3 / 7;
+    background-color: white;
+}
+

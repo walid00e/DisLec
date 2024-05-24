@@ -1,5 +1,5 @@
 import './Logo.css';
-import logo from '../../Assets/icons/DL logo.svg'
+import logo from '../../../Assets/icons/DL logo.svg'
 
 function Logo(props) {
     return (
