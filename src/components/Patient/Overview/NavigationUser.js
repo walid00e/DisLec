@@ -15,29 +15,31 @@ import {Link, useLocation} from "react-router-dom";
 function NavigationUser(props) {
     const location = useLocation();
     const isActivated = (path) => location.pathname === path;
-    return(
+    return (
         <div className="navigation-user-base rounderCorn dropShadow">
             <Logo/>
             <GroupBtn>
                 <Link to={"/Overview"}>
-                    <SectionBtn activated={isActivated('/Overview')} title='OVERVIEW' icon={overViewIcon} />
+                    <SectionBtn activated={isActivated('/Overview')} title='OVERVIEW' icon={overViewIcon}/>
                 </Link>
                 <Link to={"/Practice"}>
-                    <SectionBtn activated={isActivated('/Practice')} title='PRACTICE' icon={practiceIcon} />
+                    <SectionBtn activated={isActivated('/Practice')} title='PRACTICE' icon={practiceIcon}/>
                 </Link>
                 <Link to={"/Collab"}>
-                    <SectionBtn activated={isActivated('/Collab')} title='COLLAB' icon={collabIcon} />
+                    <SectionBtn activated={isActivated('/Collab')} title='COLLAB' icon={collabIcon}/>
                 </Link>
                 <Link to={"/Profile"}>
-                    <SectionBtn activated={isActivated('/Profile')} title='PROFILE' icon={profileIcon} />
+                    <SectionBtn activated={isActivated('/Profile')} title='PROFILE' icon={profileIcon}/>
                 </Link>
                 <Link to={"/Setting"}>
-                    <SectionBtn activated={isActivated('/Setting')} title='SETTING' icon={settingIcon} />
+                    <SectionBtn activated={isActivated('/Setting')} title='SETTING' icon={settingIcon}/>
                 </Link>
             </GroupBtn>
             <GroupBtnExtras>
                 <SectionBtn activated={false} title='DARK / LIGHT' icon={themeIcon}/>
-                <SectionBtn activated={false} title='LOGOUT' icon={logoutIcon}/>
+                <Link to={"/Logout"}>
+                    <SectionBtn activated={false} title='LOGOUT' icon={logoutIcon}/>
+                </Link>
             </GroupBtnExtras>
 
         </div>

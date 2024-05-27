@@ -1,13 +1,11 @@
-import './DashboardTop.css'
-import'../../../colors.css'
-import img from '../../../Assets/img/2148244811.jpg'
+import './DashboardTop.css';
 
-function DashboardTop() {
+function DashboardTop(props) {
     return (
         <div className="dashboard-top-base rounderCorn dropShadow">
             <div className="dashboard-top-container">
                 <span className="dashboard text-dark">Dashboard</span>
-                <img src={img} alt="Profile Picture" className="profile-img"/>
+                <img src={props.imgSrc} alt="Profile Picture" className="profile-img"/>
             </div>
         </div>
     );

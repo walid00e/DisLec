@@ -1,13 +1,12 @@
 import './RankStats.css';
-import imgLevel from "../../../Assets/icons/level1.svg";
 
 function RankStats(props) {
     return(
         <div className="rank-stats-base rounderCorn dropShadow">
             <div className="rank-stats-content-container">
-                <img src={imgLevel} className="rank-stats-image" alt=""/>
-                <p className="rank-stats-name">LEVEL 1 RANK</p>
-                <p className="rank-stats-desc">Random Description</p>
+                <img src={props.imgSrc} className="rank-stats-image" alt=""/>
+                <p className="rank-stats-name">{props.name}</p>
+                <p className="rank-stats-desc">{props.desc}</p>
             </div>
         </div>
     );

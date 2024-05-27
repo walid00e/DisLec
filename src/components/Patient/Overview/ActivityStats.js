@@ -1,67 +1,45 @@
 import './ActivityStats.css';
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-
-const data = [
-    {
-        name: 'JAN',
-        uv: 4,
-        pv: 2400,
-        amt: 2400,
-    },
-    {
-        name: 'FEB',
-        uv: 3,
-        pv: 1398,
-        amt: 2210,
-    },
-    {
-        name: 'MAR',
-        uv: 5,
-        pv: 9800,
-        amt: 2290,
-    },
-    {
-        name: 'AVR',
-        uv: 7,
-        pv: 3908,
-        amt: 2000,
-    },
-    {
-        name: 'MAY',
-        uv: 5,
-        pv: 4800,
-        amt: 2181,
-    },
-    {
-        name: 'JUN',
-        uv: 5,
-        pv: 3800,
-        amt: 2500,
-    }
-];
+import {BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer} from 'recharts';
 
 function CustomBar(props) {
-    const { x, y, width, height} = props;
-    return <Rectangle x={x} y={y} width={width} height={height} radius={[50, 50, 50, 50]} fill="#4361EE" />;
+    const {x, y, width, height} = props;
+    return <Rectangle x={x} y={y} width={width} height={height} radius={[50, 50, 50, 50]} fill="#4361EE"/>;
 }
 
 
 function ActivityStats(props) {
-    return(
+    let formatedData = {};
+    if (props.data.length) {
+        formatedData = props.data.map((entry) => {
+            return {
+                activityMonth: entry.activityMonth + "-" + entry.activityYear,
+                "Hours Spent": entry.activityValue
+            };
+        });
+    }
+    return (
         <div className="activity-stats-base rounderCorn dropShadow">
             <p className="activity-stats-title">Activity Focus</p>
             <div className="activity-chart-container">
-                <ResponsiveContainer className="activity-stats-container" height={250} width={450}>
-                    <BarChart
-                        width={500}
-                        height={300}
-                        data={data}
-                    >
-                        <XAxis dataKey="name" />
-                        <Tooltip />
-                        <Bar dataKey="uv" fill="#F72585" shape={<CustomBar/>} activeBar={<CustomBar fill="#F72585" />} />
-                    </BarChart>
-                </ResponsiveContainer>
+                {
+                    formatedData.length ? (
+                        <ResponsiveContainer className="activity-stats-container" height={250} width={450}>
+                            <BarChart
+                                width={500}
+                                height={300}
+                                data={formatedData}
+                            >
+                                <XAxis dataKey="activityMonth"/>
+                                <Tooltip/>
+                                <Bar dataKey="Hours Spent" fill="#F72585" shape={<CustomBar/>}
+                                     activeBar={<CustomBar fill="#F72585"/>}/>
+                            </BarChart>
+                        </ResponsiveContainer>
+                    ) : (
+                        <p>No Data Found</p>
+                    )
+                }
+
             </div>
 
         </div>

@@ -7,18 +7,18 @@
     justify-content: center;
 }
 
-.rank-stats-content-container {
+.user-stats-content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.rank-stats-image {
+.user-stats-image {
     width: 90%;
 }
 
-.rank-stats-name {
+.user-stats-name {
     color: white;
     margin-top: 12px;
     margin-bottom: 0;
@@ -28,7 +28,7 @@
     height: fit-content;
 }
 
-.rank-stats-title {
+.user-stats-title {
     color: white;
     opacity: 90%;
     margin-top: 0;

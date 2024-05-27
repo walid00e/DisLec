@@ -13,5 +13,6 @@
     <orderEntry type="module" module-name="rest-api-nodejs-mongodb-master" />
     <orderEntry type="module" module-name="DisLec-api" />
     <orderEntry type="module" module-name="dislec-api" />
+    <orderEntry type="module" module-name="premium_docs" />
   </component>
 </module>

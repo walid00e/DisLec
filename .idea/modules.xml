@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../../MERN TALKEASE/.idea/MERN TALKEASE.iml" filepath="$PROJECT_DIR$/../../MERN TALKEASE/.idea/MERN TALKEASE.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dislec.iml" filepath="$PROJECT_DIR$/.idea/dislec.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dislec-api/.idea/dislec-api.iml" filepath="$PROJECT_DIR$/../dislec-api/.idea/dislec-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../premium_docs/.idea/premium_docs.iml" filepath="$PROJECT_DIR$/../../premium_docs/.idea/premium_docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../rest-api-nodejs-mongodb-master/.idea/rest-api-nodejs-mongodb-master.iml" filepath="$PROJECT_DIR$/../../rest-api-nodejs-mongodb-master/.idea/rest-api-nodejs-mongodb-master.iml" />
     </modules>
   </component>
