@@ -27,7 +27,8 @@ const Login = () => {
             const data = await response.json();
             if (data.status === 1) {
                 const token = data.data.token;
-                login(token);
+                const id = data.data._id;
+                login(token, id);
 
                 // Redirect to a protected route or perform other actions
                 navigate('/Overview');

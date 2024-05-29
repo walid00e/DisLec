@@ -1,0 +1,35 @@
+.recording-current-grade-pro {
+    flex: 1;
+}
+
+.recording-current-grade-text-good-pro {
+    background-color: #2BC016;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+}
+
+.recording-current-grade-text-retry-pro {
+    background-color: #DA2C38;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 60px;
+}
+
+.recording-item-data-container-pro {
+    flex: 4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-player-pro{
+    background-color: #4361EE;
+    width: 100%;
+    margin-left: 12px;
+    margin-right: 16px;
+    border-radius: 50px;
+}

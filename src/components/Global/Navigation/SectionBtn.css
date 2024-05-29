@@ -11,13 +11,18 @@
     background-color: white;
 }
 
-.section-btn-container-non-selected{
+.section-btn-container-non-selected-student{
     background-color: #F72585;
     border: 1px solid white;
 }
 
+.section-btn-container-non-selected-pro{
+    background-color: #4361EE;
+    border: 1px solid white;
+}
+
 .section-btn-icon-selected {
-    height: 28px;
+    height: 22px;
     margin-left: 16px;
     z-index: 1;
     position: absolute;
@@ -25,15 +30,23 @@
 
 
 .section-btn-icon-non-selected {
-    height: 28px;
+    height: 22px;
     margin-left: 16px;
     z-index: 1;
     position: absolute;
 }
 
-.section-btn-text-selected {
+.section-btn-text-selected-student {
     text-align: center;
     color: #F72585;
+    width: 100%;
+    z-index: 0;
+    font-size: medium;
+}
+
+.section-btn-text-selected-pro {
+    text-align: center;
+    color: #4361EE;
     width: 100%;
     z-index: 0;
     font-size: medium;

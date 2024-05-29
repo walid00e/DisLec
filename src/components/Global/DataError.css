@@ -1,0 +1,14 @@
+.data-error-container {
+    grid-row:    1 / 4;
+    grid-column: 3 / 13;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-error-log {
+    font-size: x-large;
+    font-weight: bold;
+    color: #DA2C38;
+}

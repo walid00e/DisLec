@@ -1,0 +1,15 @@
+.navigation-user-pro-base {
+    grid-row:    1 / 4;
+    grid-column: 1 / 3;
+    background-color: #4361EE;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-user-pro-base a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

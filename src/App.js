@@ -1,15 +1,18 @@
 import './App.css';
-import Home from './Pages/Overview'
+import Home from './Pages/Student/Overview'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Overview from "./Pages/Overview";
-import Collab from "./Pages/Collab";
-import Profile from "./Pages/Profile";
+import Overview from "./Pages/Student/Overview";
+import Collab from "./Pages/Student/Collab";
+import Profile from "./Pages/Student/Profile";
 import Login from "./Pages/Login";
-import Practice from "./Pages/Practice";
+import Practice from "./Pages/Student/Practice";
+import OverviewPro from "./Pages/Professional/Overview";
 import {AuthProvider} from "./components/authentication/AuthContext";
 import ProtectedRoute from "./components/authentication/ProtectedRoute";
 import Logout from "./Pages/Logout";
 import UnauthenticatedRoute from "./components/authentication/UnauthenticatedRoute";
+import Todo from "./Pages/Professional/Todo";
+import Review from "./Pages/Professional/Review";
 
 function App() {
     return (
@@ -38,6 +41,10 @@ function App() {
                             <Logout/>
                         </ProtectedRoute>
                     }/>
+                    // professional routes
+                    <Route path="/pro-overview" element={<OverviewPro/>}/>
+                    <Route path="/Todo" element={<Todo/>}/>
+                    <Route path="/Review" element={<Review/>}/>
                 </Routes>
             </BrowserRouter>
         </AuthProvider>
